@@ -48,27 +48,6 @@ Dart
 Installation
 Clone the Repository
 
-bash
-Copy code
-git clone https://github.com/your-username/getxdemo.git
-Navigate to the Project Directory
-
-bash
-Copy code
-cd getxdemo
-Install Dependencies
-
-bash
-Copy code
-flutter pub get
-Run the App
-
-bash
-Copy code
-flutter run
-Development
-For development and customization:
-
 State Management: Utilize GetX controllers for managing state and business logic.
 Routing: Configure routes using GetX for navigation.
 UI Customization: Modify the UI components as needed to fit your e-commerce application's requirements.
