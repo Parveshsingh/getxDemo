@@ -2,6 +2,19 @@ import 'package:carousel_slider/carousel_controller.dart';
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {
+  var isLoading = true.obs;
+
+  @override
+  void onInit() {
+    super.onInit();
+    _loadData();
+  }
+
+  void _loadData() async {
+
+    await Future.delayed(const Duration(seconds: 5));
+    isLoading.value = false;
+  }
 
   List<dynamic> bannerImageList = [
     "assets/images/shoppingImg1.jpg",
